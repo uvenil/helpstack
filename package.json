@@ -1,0 +1,17 @@
+{
+  "name": "helpstack",
+  "version": "1.0.0",
+  "description": "Returns one-liner with variable, line number and stack, useful for debugging",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "bin": {
+    "helpstack": "bin/helpstack.js"
+  },
+  "author": "uvenil",
+  "license": "MIT",
+  "repository": "https://github.com/uvenil/helpstack.git",
+  "dependencies": {}
+}
